@@ -1,0 +1,10 @@
+Explanation
+
+Abstract Class (PaymentProcessor): Provides a template method (processPayment) that outlines the steps for processing a payment.
+Subclasses (CreditCardProcessor) implement the specifics of each step.
+Interface (PaymentGateway): Defines the contract for connecting to and processing payments through a payment gateway.
+Implementations (PayPalGateway, StripeGateway) provide the actual code to interact with different payment services.
+Service Class (PaymentService): Uses both the abstract class and interface to process payments,
+demonstrating how different implementations can be swapped easily.
+This design allows for flexibility and extensibility in adding new payment methods or gateways.
+This example demonstrates how abstract classes and interfaces can be used together to build a flexible and extensible payment processing system.
