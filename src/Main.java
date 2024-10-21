@@ -45,9 +45,12 @@ public class Main {
 //        starPattern.starPattern(5);
 
         //reverse string
-        ReverseString reverseString= new ReverseString();
-        String input="hello";
-        System.out.println("The reverse String is :"+reverseString.reverse(input));
+//        ReverseString reverseString= new ReverseString();
+//        String input="hello";
+//        System.out.println("The reverse String is :"+reverseString.reverse(input));
+        //Number of repetition character in a string
+        NumberOfRepetitionCharacterInString numberOfRepetitionCharacterInString= new NumberOfRepetitionCharacterInString();
+        System.out.println("Number Of Repetition Character In String "+numberOfRepetitionCharacterInString.countRepetition("Bangladesh Cricket Board ",'a'));
 
     }
 }
